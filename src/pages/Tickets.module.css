@@ -1,0 +1,35 @@
+.container{
+
+    margin: 3rem 0;
+  
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+.ticketHeadings{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: #79838E;
+}

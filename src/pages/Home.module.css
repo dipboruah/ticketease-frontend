@@ -1,0 +1,62 @@
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+  color: #79838E;
+}
+
+.btnCreate{
+    border: 0;
+    border-radius: 8px;
+    color: #2c2c2c;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    padding:  7px 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color:#ECF2F6;
+    border: 2px solid #1EBEAD;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnView svg, .btnCreate svg {
+    margin-right: 8px;
+  }
+
+  .btnView{
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    padding:  7px 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color:#1EBEAD;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .btnView:hover, .btnCreate:hover{
+    transform: scale(0.98);
+  }
+
+
+
+

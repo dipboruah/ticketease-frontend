@@ -1,0 +1,41 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    width: 80%;
+    margin: 30px auto;
+
+}
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .formGroup  input,
+  .formGroup  textarea,
+  .formGroup  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0bdbe;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+  
+  .formGroup  label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+    color: #3D5153;
+  }

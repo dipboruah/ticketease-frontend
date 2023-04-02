@@ -1,0 +1,51 @@
+.ticket{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+.ticket:hover{
+    background: #F3F6FA;
+}
+
+.status {
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    height: 40;
+    
+    padding: 0 20px;
+    justify-self: center;
+   
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .new {
+    background-color: #E7FBE8;
+    color: #19AC58;
+    border-radius: 50px;
+    border: 1px solid #19AC58;
+  }
+  
+  .open {
+    background-color: #ECF5FD;
+    color: #1860EA;
+    border-radius: 50px;
+    border: 1px solid #1860EA;
+  }
+  
+  .closed {
+    background-color: #FEF0E1;
+    color: #E69241;
+    border-radius: 50px;
+    border: 1px solid #E69241;
+  }
